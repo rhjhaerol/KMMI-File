@@ -1,0 +1,161 @@
+/*div{
+    background: #ebebeb;
+    border: 1px solid grey;
+}
+
+span{
+    background: goldenrod;
+}
+*/
+body{
+    background: #ebebeb;
+    margin: 0px;
+}
+.main-container{
+    width: 90%;
+    margin: auto; /* agar container ke tengah */
+}
+
+#main-site-logo-x{
+    background: white;
+    padding: 16px 10px 16px 10px;
+}
+
+#main-site-logo-x span{
+    font-size: 41px;
+    margin-left: 10px;
+
+}
+
+.navigation-menu{
+    background: grey;
+    padding-left: 5px; /*space konten dan border*/
+    padding-right: 5px;
+}
+
+.navigation-menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase; /*jadiin teks kapital*/
+    padding: 10px 5px;
+    font-family: 'Times New Roman', Times, serif; /*style font*/
+}
+
+.header-image{
+    background: white;
+    height: 350px;
+    text-align: center;
+    margin-top: 10px;
+    background-image: url("../images/css.png");
+    background-position: center;
+    background-size: cover;
+   
+}
+.header-image h1{
+    line-height: 19;
+}
+
+.info-card{
+    display: flex;
+}
+.info-card div{
+    flex: 1;
+    height: 250px;
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.info-card p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-content{
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.main-content p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-content .content-section{
+    flex: 2;
+    padding: 10px;
+}
+
+.main-content .navigation-section{
+    flex: 1;
+}
+.navigation-section ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 10px;
+}
+.navigation-section li{
+    border: 1px solid gray;
+    list-style: none;
+    background: #ebebeb;
+    color: rgb(63,63,63);
+    padding: 16px 8px;
+    font-weight: bold;
+}
+.navigation-section li:hover{
+    background: #DDDDDD;
+}
+.navigation-section a{
+    text-decoration: none;
+}
+
+.main-gallery{
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-gallery div{
+    flex: 1;
+    height: 200px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.main-gallery .image1{
+    background: #0068f1;
+}
+
+.main-gallery .image2{
+    background: #00eeff;
+}
+
+.main-gallery .image3{
+    background: #00ffd5;
+}
+
+.main-gallery .image4{
+    background: #00ff73;
+}
+
+.main-gallery h3{
+    text-align: center;
+    line-height: 150px;
+}
+
+.main-footer{
+    display: flex;
+    margin-top: 20px;
+    background: cadetblue;
+    padding: 16px 10px;
+}
+
+.main-footer div{
+    flex: 1;
+}
+
+.btn {
+    height: 30px;
+}
